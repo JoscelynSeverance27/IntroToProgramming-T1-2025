@@ -1,5 +1,5 @@
 answer_one = "no"   
-submitted_answer1 = input("Do I sleep in a bed?\n>")    
+submitted_answer1 = input("Do I sleep?\n>")    
 answer_two = "draw"    
 submitted_answer2 = input("What do I do in my free time?\n>")    
 answer_three = "no one noticed"    
@@ -7,7 +7,7 @@ submitted_answer3 = input("Maybe I lost my mind, but ______________\n>")
 answer_four = "princess"    
 submitted_answer4 = input("What does my brother refer Hatsune Miku as?\n>")    
 answer_five = "7"    
-submitted_answer5 = input("Now many tallies do I have?\n>")
+submitted_answer5 = input("How many tallies do I have?\n>")
 
 def calculate():
     if answer_one.lower() == submitted_answer1:
@@ -26,5 +26,6 @@ def calculate():
        score = score + 1
 
        print("Score: " + str(score) + "/5")
+
 
     calculate()
